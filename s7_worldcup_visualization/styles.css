@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('Dusha.ttf');
+}
+
+.stats {
+position: absolute; /* Абсолютное позиционирование */
+bottom: 15px; /* Положение от нижнего края */
+right: 15px; /* Положение от правого края */
+line-height: 1px;
+}
