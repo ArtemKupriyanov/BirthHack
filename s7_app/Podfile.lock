@@ -1,0 +1,16 @@
+PODS:
+  - NYAlertViewController (1.3.0)
+
+DEPENDENCIES:
+  - NYAlertViewController
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - NYAlertViewController
+
+SPEC CHECKSUMS:
+  NYAlertViewController: b93f82e2c1fc6d5e9485512ddbe7b481f463a074
+
+PODFILE CHECKSUM: 4902e63db080e1c9148d8fadbf1e32dced7aa724
+
+COCOAPODS: 1.5.0

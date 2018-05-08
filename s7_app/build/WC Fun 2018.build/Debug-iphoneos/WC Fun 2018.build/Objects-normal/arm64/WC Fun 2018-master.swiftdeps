@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "8442b5c5449dd3c66782a469c6320277"
+build_time: [1523787414, 82085000]
+inputs:
+  "/Users/yar/Desktop/Hack/BirthHack/BracketVIew/CKBracketView/CKBracketView/CKBracketCell.swift": [1523779660, 0]
+  "/Users/yar/Desktop/Hack/BirthHack/BracketVIew/CKBracketView/CKBracketView/CKBracketViewController.swift": [1523787410, 0]

@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		357891819567F953C83EAD355B330D34 /* Pods-WC Fun 2018-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4983EFC43469E35B9EAC7B4E1C8DD576 /* Pods-WC Fun 2018-dummy.m */; };
+		463C27C3E35BD6EE771FE92EF8FB48B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		48B628063D7D9B556B49D6189E8DDBA6 /* NYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F47B578815D77AF251F4A101D1A6D1B /* NYAlertView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		507810C146F4F51E25D217C0E2403A0B /* NYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536F2A9DB8A1047D0EFF185158B2F9C8 /* NYAlertViewController.m */; };
+		66B92AC3846450EE3E68F73591525303 /* NYAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C1D1B42A7678CB39B532701DCC688A /* NYAlertViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1491666450BE0568D5812123C983A8D /* NYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C290DC12D957339A83A93AF4C4592E3 /* NYAlertView.m */; };
+		FA35661322E81B49E0F360EB4BBE8A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FE23CAAFBF9D5D795CBDE072033FC839 /* NYAlertViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D9A23C4076F1C586E340E64345168A /* NYAlertViewController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE5ABB107404B261F75DFEE9BC424F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5835252C1DF3B1EF1545BE13CE24CC0;
+			remoteInfo = NYAlertViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EF05DA9F42477C71DF6923994FE478F /* NYAlertViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYAlertViewController-prefix.pch"; sourceTree = "<group>"; };
+		14D9A23C4076F1C586E340E64345168A /* NYAlertViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYAlertViewController-dummy.m"; sourceTree = "<group>"; };
+		2CF48F4E680A7CEC7454D875C50C1C4C /* Pods-WC Fun 2018-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WC Fun 2018-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35282327D590A09C34CABF2A7C88E0B0 /* Pods-WC Fun 2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WC Fun 2018.release.xcconfig"; sourceTree = "<group>"; };
+		4983EFC43469E35B9EAC7B4E1C8DD576 /* Pods-WC Fun 2018-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WC Fun 2018-dummy.m"; sourceTree = "<group>"; };
+		536F2A9DB8A1047D0EFF185158B2F9C8 /* NYAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYAlertViewController.m; path = NYAlertViewController/NYAlertViewController.m; sourceTree = "<group>"; };
+		5E933D6B1920810FD6703115F75EC7B2 /* libNYAlertViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNYAlertViewController.a; path = libNYAlertViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FB7BDFBE4B23AC5E16F5F4EE727147A /* libPods-WC Fun 2018.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WC Fun 2018.a"; path = "libPods-WC Fun 2018.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C290DC12D957339A83A93AF4C4592E3 /* NYAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYAlertView.m; path = NYAlertViewController/NYAlertView.m; sourceTree = "<group>"; };
+		8A9A246D41F96B16E9BF35864223B2E1 /* NYAlertViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYAlertViewController.xcconfig; sourceTree = "<group>"; };
+		8F47B578815D77AF251F4A101D1A6D1B /* NYAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYAlertView.h; path = NYAlertViewController/NYAlertView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CECF90F016598E3CE7F4DAF007EBE7B /* Pods-WC Fun 2018-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WC Fun 2018-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3C1D1B42A7678CB39B532701DCC688A /* NYAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYAlertViewController.h; path = NYAlertViewController/NYAlertViewController.h; sourceTree = "<group>"; };
+		E5E33FD934C50D46625F80DE6DF4A735 /* Pods-WC Fun 2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WC Fun 2018.debug.xcconfig"; sourceTree = "<group>"; };
+		EA59111B62B83E6C4226809E15F1A8EF /* Pods-WC Fun 2018-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WC Fun 2018-resources.sh"; sourceTree = "<group>"; };
+		F055E2EC793A8B1181E45AF7F69CF3C0 /* Pods-WC Fun 2018-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WC Fun 2018-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		649B84FF416968EE735FD5821341D251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA35661322E81B49E0F360EB4BBE8A4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12D27555C6D223080F37D7A7565587F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463C27C3E35BD6EE771FE92EF8FB48B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086AAE3CA53AE7714F33B5E2BD14B84F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7AED81C3AD14E8CCB101C004344C7C6 /* Pods-WC Fun 2018 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		423833B80724D2CDD878C0B4609EEC3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A9A246D41F96B16E9BF35864223B2E1 /* NYAlertViewController.xcconfig */,
+				14D9A23C4076F1C586E340E64345168A /* NYAlertViewController-dummy.m */,
+				0EF05DA9F42477C71DF6923994FE478F /* NYAlertViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NYAlertViewController";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AA23948700E86252889E082027F7B898 /* Pods */,
+				DE57126CFC9A4BCC1EEFDC95F107E389 /* Products */,
+				086AAE3CA53AE7714F33B5E2BD14B84F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AA23948700E86252889E082027F7B898 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF72BBE1B2D778EF5E3689FF7A895563 /* NYAlertViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D7AED81C3AD14E8CCB101C004344C7C6 /* Pods-WC Fun 2018 */ = {
+			isa = PBXGroup;
+			children = (
+				2CF48F4E680A7CEC7454D875C50C1C4C /* Pods-WC Fun 2018-acknowledgements.markdown */,
+				9CECF90F016598E3CE7F4DAF007EBE7B /* Pods-WC Fun 2018-acknowledgements.plist */,
+				4983EFC43469E35B9EAC7B4E1C8DD576 /* Pods-WC Fun 2018-dummy.m */,
+				F055E2EC793A8B1181E45AF7F69CF3C0 /* Pods-WC Fun 2018-frameworks.sh */,
+				EA59111B62B83E6C4226809E15F1A8EF /* Pods-WC Fun 2018-resources.sh */,
+				E5E33FD934C50D46625F80DE6DF4A735 /* Pods-WC Fun 2018.debug.xcconfig */,
+				35282327D590A09C34CABF2A7C88E0B0 /* Pods-WC Fun 2018.release.xcconfig */,
+			);
+			name = "Pods-WC Fun 2018";
+			path = "Target Support Files/Pods-WC Fun 2018";
+			sourceTree = "<group>";
+		};
+		DE57126CFC9A4BCC1EEFDC95F107E389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E933D6B1920810FD6703115F75EC7B2 /* libNYAlertViewController.a */,
+				6FB7BDFBE4B23AC5E16F5F4EE727147A /* libPods-WC Fun 2018.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF72BBE1B2D778EF5E3689FF7A895563 /* NYAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8F47B578815D77AF251F4A101D1A6D1B /* NYAlertView.h */,
+				7C290DC12D957339A83A93AF4C4592E3 /* NYAlertView.m */,
+				D3C1D1B42A7678CB39B532701DCC688A /* NYAlertViewController.h */,
+				536F2A9DB8A1047D0EFF185158B2F9C8 /* NYAlertViewController.m */,
+				423833B80724D2CDD878C0B4609EEC3A /* Support Files */,
+			);
+			name = NYAlertViewController;
+			path = NYAlertViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CD46C5B403B5C930EF3B05071400FD27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B628063D7D9B556B49D6189E8DDBA6 /* NYAlertView.h in Headers */,
+				66B92AC3846450EE3E68F73591525303 /* NYAlertViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		73E1C51F8A36F72AA0F6BC1E9FA2C2E5 /* Pods-WC Fun 2018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D0E1EF11128214D03B47CA4CDE9862 /* Build configuration list for PBXNativeTarget "Pods-WC Fun 2018" */;
+			buildPhases = (
+				FF86EB215E0C88DBFA3D0D649F684751 /* Sources */,
+				B12D27555C6D223080F37D7A7565587F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39F34C7C09E7FE273C82F5C2200004E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-WC Fun 2018";
+			productName = "Pods-WC Fun 2018";
+			productReference = 6FB7BDFBE4B23AC5E16F5F4EE727147A /* libPods-WC Fun 2018.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B5835252C1DF3B1EF1545BE13CE24CC0 /* NYAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A141DA79CB62B73C59ED10AA61751DF2 /* Build configuration list for PBXNativeTarget "NYAlertViewController" */;
+			buildPhases = (
+				281A8457FCA83659C1973A645372869D /* Sources */,
+				649B84FF416968EE735FD5821341D251 /* Frameworks */,
+				CD46C5B403B5C930EF3B05071400FD27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYAlertViewController;
+			productName = NYAlertViewController;
+			productReference = 5E933D6B1920810FD6703115F75EC7B2 /* libNYAlertViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DE57126CFC9A4BCC1EEFDC95F107E389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5835252C1DF3B1EF1545BE13CE24CC0 /* NYAlertViewController */,
+				73E1C51F8A36F72AA0F6BC1E9FA2C2E5 /* Pods-WC Fun 2018 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281A8457FCA83659C1973A645372869D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1491666450BE0568D5812123C983A8D /* NYAlertView.m in Sources */,
+				FE23CAAFBF9D5D795CBDE072033FC839 /* NYAlertViewController-dummy.m in Sources */,
+				507810C146F4F51E25D217C0E2403A0B /* NYAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF86EB215E0C88DBFA3D0D649F684751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357891819567F953C83EAD355B330D34 /* Pods-WC Fun 2018-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39F34C7C09E7FE273C82F5C2200004E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NYAlertViewController;
+			target = B5835252C1DF3B1EF1545BE13CE24CC0 /* NYAlertViewController */;
+			targetProxy = EE5ABB107404B261F75DFEE9BC424F56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		253A2AE991B39443F80578CC17A78DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A9A246D41F96B16E9BF35864223B2E1 /* NYAlertViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NYAlertViewController/NYAlertViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NYAlertViewController;
+				PRODUCT_NAME = NYAlertViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		634EF17A93F2EEA38FC97079A0D5939A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E33FD934C50D46625F80DE6DF4A735 /* Pods-WC Fun 2018.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8854326D66180B2F2BC834E189EAF941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35282327D590A09C34CABF2A7C88E0B0 /* Pods-WC Fun 2018.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FA6F91AC78F25D8DB31A387DE9295C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A9A246D41F96B16E9BF35864223B2E1 /* NYAlertViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NYAlertViewController/NYAlertViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NYAlertViewController;
+				PRODUCT_NAME = NYAlertViewController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6BB864FB202B78BB66ACCAACAA0513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF76A09C3B09DA1B0DB6FD5DB2C3A2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF76A09C3B09DA1B0DB6FD5DB2C3A2A2 /* Debug */,
+				CE6BB864FB202B78BB66ACCAACAA0513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A141DA79CB62B73C59ED10AA61751DF2 /* Build configuration list for PBXNativeTarget "NYAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253A2AE991B39443F80578CC17A78DEE /* Debug */,
+				8FA6F91AC78F25D8DB31A387DE9295C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D0E1EF11128214D03B47CA4CDE9862 /* Build configuration list for PBXNativeTarget "Pods-WC Fun 2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634EF17A93F2EEA38FC97079A0D5939A /* Debug */,
+				8854326D66180B2F2BC834E189EAF941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
