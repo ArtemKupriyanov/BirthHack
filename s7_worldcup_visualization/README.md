@@ -6,7 +6,7 @@ Map examples: https://github.com/plotly/dash-uber-rides-demo/blob/master/app.py
 
 ## How to run  
 
-Firstly, install Dash python framework: https://dash.plot.ly/
+Firstly, install Dash python framework: https://dash.plot.ly/installation
 
 Then type:
 
